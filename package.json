@@ -1,0 +1,32 @@
+{
+  "name": "djszmakbot",
+  "version": "1.0.0",
+  "description": "A Discord bot to play music from YouTube",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "youtube"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "@distube/yt-dlp": "^2.0.1",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  }
+}
