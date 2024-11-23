@@ -20,12 +20,36 @@ const commands = [
         ],
     },
     {
+        name: 'pause',
+        description: 'Pause the currently playing music',
+    },
+    {
+        name: 'resume',
+        description: 'Resume the paused music',
+    },
+    {
         name: 'stop',
         description: 'Stop the currently playing music',
     },
     {
         name: 'leave',
         description: 'Make the bot leave the voice channel',
+    },
+    {
+        name: 'volume',
+        description: 'Set the volume of the music playback',
+        options: [
+            {
+                name: 'volume',
+                type: 4, // INTEGER type
+                description: 'The volume level (0-100)',
+                required: true,
+            },
+        ],
+    },
+    {
+        name: 'progress',
+        description: 'Display the progress of the currently playing song',
     },
 ];
 
